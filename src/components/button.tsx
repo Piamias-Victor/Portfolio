@@ -36,7 +36,7 @@ export function ContrastTextButton(props: ButtonProps & OptionalIconProps & RefP
         ref={xref}>
         <div className="flex justify-center items-center gap-2 group-enabled:group-active:scale-90 transition-transform">
             {Icon &&
-                <Icon className="icon-xs" />}
+                <Icon className="icon-2xs md:icon-xs shrink-0" />}
             {children}
         </div>
     </button>

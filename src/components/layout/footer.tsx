@@ -5,9 +5,9 @@ import { OppositeTextButtonRoundedSolid } from "../button";
 
 
 export function Footer() {
-    return <header className='px-8 rounded-t-xl border border-default w-full flex items-center justify-between h-[50px] bg-indigo3'>
-        <div className="w-[250px]" />
-        <div className="flex items-center gap-8">
+    return <header className='px-8 rounded-t-xl border border-default w-full flex items-center justify-center md:justify-between h-[50px] bg-indigo3'>
+        <div className="hidden md:block w-[250px]" />
+        <div className="hidden md:block flex items-center gap-8">
             <span className="text-colored">
                 Made in 🇫🇷 with ❤️
             </span>
