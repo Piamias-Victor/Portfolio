@@ -1,12 +1,18 @@
-import { FiGithub, FiLinkedin, FiMail, FiTwitter } from 'react-icons/fi';
-import { ExternalDivisionLink } from "../../next/anchor";
-import { OppositeTextButtonRoundedSolid } from "../button";
+import { FiArrowUp, FiGithub, FiLinkedin, FiMail, FiTwitter } from 'react-icons/fi';
+import { ExternalDivisionLink, InternalDivisionLink } from "../../next/anchor";
+import { ContrastTextButton, OppositeTextButtonRoundedSolid } from "../button";
 
 
 
 export function Footer() {
     return <header className='px-8 rounded-t-xl border border-default w-full flex items-center justify-center md:justify-between h-[50px] bg-indigo3'>
-        <div className="hidden md:block w-[250px]" />
+        <div className="hidden md:block w-[250px]">
+            <InternalDivisionLink href='#top'>
+                <ContrastTextButton className='text-sm bg-indigo4 text-colored' icon={FiArrowUp}>
+                    Go to Top
+                </ContrastTextButton>
+            </InternalDivisionLink>
+        </div>
         <div className="hidden md:block flex items-center gap-8">
             <span className="text-colored">
                 Made in 🇫🇷 with ❤️

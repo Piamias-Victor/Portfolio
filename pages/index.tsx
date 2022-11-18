@@ -9,6 +9,7 @@ import { Skills } from "../src/components/skills";
 
 export default function Home() {
   return <>
+    <div id='top' />
     <Header />
     <div className="h-[50px]" />
     <main className='flex flex-col items-center'>
