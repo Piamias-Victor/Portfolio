@@ -31,7 +31,7 @@ function CardTitle() {
         </span>
         <div className='text-contrast'>
             <Typewriter
-                words={['Front-End developer', 'Crypto freelancer', 'Cypherpunk for privacy', 'Front-End developer']}
+                words={['Front-End developer', 'Crypto freelance', 'Cypherpunk', 'Front-End developer']}
                 cursor
                 cursorStyle='|'
                 typeSpeed={70}
