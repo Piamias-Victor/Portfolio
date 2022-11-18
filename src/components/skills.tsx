@@ -1,4 +1,4 @@
-import { SiCss3, SiEthereum, SiHtml5, SiJavascript, SiReact, SiRust, SiSolidity, SiTailwindcss, SiTypescript, SiWebassembly } from "react-icons/si";
+import { SiCss3, SiEthereum, SiHtml5, SiJavascript, SiNextdotjs, SiReact, SiRust, SiSolidity, SiTailwindcss, SiTypescript, SiWebassembly } from "react-icons/si";
 import { IconProps } from "../react/icon";
 
 export function Skills() {
@@ -12,6 +12,7 @@ export function Skills() {
             <Skill icon={SiJavascript} content={"JavaScript"} />
             <Skill icon={SiTypescript} content={"TypeScript"} />
             <Skill icon={SiReact} content={"React"} />
+            <Skill icon={SiNextdotjs} content={"Next"} />
             <Skill icon={SiHtml5} content={"Html"} />
             <Skill icon={SiCss3} content={"Css"} />
             <Skill icon={SiTailwindcss} content={"Tailwind"} />

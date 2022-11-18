@@ -4,7 +4,7 @@ import { RiPingPongLine } from 'react-icons/ri';
 import { ExternalDivisionLink } from '../next/anchor';
 import { IconProps } from '../react/icon';
 import { ChildrenProps } from '../react/props';
-import { OppositeTextButtonRoundedSolid } from './anchor';
+import { OppositeTextButtonRoundedSolid } from './button';
 import { BrumeIcon, ETHBrnoIcon, SchoolIcon } from './icon';
 
 
@@ -13,7 +13,7 @@ export function ProjectSection() {
 
     return <>
         <span className="text-colored text-3xl">
-            {"Project i made 👷‍♂️"}
+            {"Project I made 👷‍♂️"}
         </span>
         <div className="h-8" />
         <div className="w-[300px] md:w-[700px] flex flex-wrap justify-center gap-8">

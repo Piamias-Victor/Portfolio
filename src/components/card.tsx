@@ -1,7 +1,7 @@
 import { FiGithub, FiLinkedin, FiTwitter } from 'react-icons/fi';
 import { Typewriter } from 'react-simple-typewriter';
 import { ExternalDivisionLink } from '../next/anchor';
-import { OppositeTextButtonRounded } from './anchor';
+import { OppositeTextButtonRounded } from './button';
 
 
 
