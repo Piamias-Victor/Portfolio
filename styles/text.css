@@ -1,0 +1,19 @@
+@layer utilities {
+  .text-default {
+    @apply text-indigo12;
+  }
+
+  .text-contrast {
+    @apply text-slate11;
+  }
+
+  .text-colored {
+    @apply text-indigo11;
+    @apply font-semibold;
+  }
+
+  .text-break {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+}

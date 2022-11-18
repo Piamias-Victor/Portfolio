@@ -2,6 +2,12 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+@import "background.css";
+@import "border.css";
+@import "icon.css";
+@import "text.css";
+@import "padding.css";
+
 html,
 body,
 #__next {
@@ -10,4 +16,5 @@ body,
 }
 
 body {
+  @apply bg-default text-default;
 }
