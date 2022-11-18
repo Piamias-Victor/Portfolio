@@ -5,6 +5,13 @@
   perspective: 1000px;
 }
 
+.flip-card-big {
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  perspective: 1000px;
+}
+
 .flip-card-inner {
   position: relative;
   width: 100%;
@@ -15,6 +22,10 @@
 }
 
 .flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-big:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
