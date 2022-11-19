@@ -1,5 +1,6 @@
 @layer utilities {
   .border-default {
     @apply border-indigo6 hover:border-indigo8;
+    @apply dark:border-indigodark6 dark:hover:border-indigodark8;
   }
 }

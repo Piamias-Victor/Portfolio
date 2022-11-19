@@ -70,14 +70,14 @@ function Project(props: IconProps & ChildrenProps & { content: string, title: st
 
     return <div className="flip-card-big">
         <div className="flip-card-inner">
-            <div className="flip-card-front">
+            <div className="flip-card-front bg-zinc-100 dark:bg-indigodark3">
                 <div className="h-[200px] flex flex-col items-center justify-center gap-4">
                     {Icon &&
                         <Icon className="w-[100px] h-[100px] shrink-0 text-colored" />}
                     <span className="text-colored">{title}</span>
                 </div>
             </div>
-            <div className="flip-card-back">
+            <div className="flip-card-back bg-indigo4 dark:bg-indigodark4">
                 <div className="h-[200px] px-2 flex-col flex items-center justify-center gap-4">
                     <span className="text-colored text-sm">{content}</span>
                     {children}

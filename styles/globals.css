@@ -26,5 +26,5 @@ body {
 }
 
 body {
-  @apply bg-default text-default;
+  @apply bg-default text-default transition-colors duration-500;
 }

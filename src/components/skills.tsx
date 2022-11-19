@@ -38,13 +38,13 @@ function Skill(props: IconProps & { content: string }) {
 
     return <div className="flip-card">
         <div className="flip-card-inner">
-            <div className="flip-card-front">
+            <div className="flip-card-front bg-zinc-100 dark:bg-indigodark3">
                 <div className="h-[100px] flex items-center justify-center">
                     {Icon &&
                         <Icon className="w-[50px] h-[50px] shrink-0 text-colored" />}
                 </div>
             </div>
-            <div className="flip-card-back">
+            <div className="flip-card-back bg-indigo4 dark:bg-indigodark4">
                 <div className="h-[100px] px-2 flex items-center justify-center">
                     <span className="text-colored">{content}</span>
                 </div>

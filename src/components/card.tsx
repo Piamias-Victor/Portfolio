@@ -7,7 +7,7 @@ import { OppositeTextButtonRounded } from './button';
 
 export function Card() {
 
-    return <div className='p-md w-[300px] flex items-center justify-center bg-zinc-100 rounded-xl shadow-xl'>
+    return <div className='p-md w-[300px] flex items-center justify-center bg-zinc-100 dark:bg-indigodark3 rounded-xl shadow-xl'>
         <div className='py-4 flex flex-col items-center text-xl'>
             <ImageIcon />
             <div className='h-4' />

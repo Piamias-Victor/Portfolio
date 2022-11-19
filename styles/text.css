@@ -1,6 +1,7 @@
 @layer utilities {
   .text-default {
     @apply text-indigo12;
+    @apply text-indigodark12;
   }
 
   .text-contrast {
@@ -9,6 +10,7 @@
 
   .text-colored {
     @apply text-indigo11;
+    @apply text-indigodark11;
     @apply font-semibold;
   }
 

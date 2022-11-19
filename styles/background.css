@@ -1,17 +1,21 @@
 @layer utilities {
   .bg-default {
     @apply bg-indigo1;
+    @apply dark:bg-indigodark1;
   }
 
   .bg-contrast {
     @apply bg-slate4;
+    @apply dark:bg-slate8;
   }
 
   .bg-component {
     @apply bg-indigo4 bg-hover;
+    @apply dark:bg-indigodark4;
   }
 
   .bg-hover {
     @apply hover:bg-indigo5;
+    @apply dark:hover:bg-indigodark5;
   }
 }
