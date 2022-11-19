@@ -18,7 +18,7 @@ export function Footer() {
                 Made in 🇫🇷 with ❤️
             </span>
         </div>
-        <div className="w-[250px] flex flex-row-reverse gap-4 px-8">
+        <div className="w-[250px] flex flex-row-reverse gap-4">
             <ExternalDivisionLink href='https://github.com/Piamias-Victor'>
                 <OppositeTextButtonRoundedSolid>
                     <FiGithub className='icon-sm text-colored' />

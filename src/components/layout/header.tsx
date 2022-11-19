@@ -14,7 +14,7 @@ export function Header() {
         <div className="flex items-center gap-2 lg:gap-8 text-sm lg:text-base">
             <InternalDivisionLink href={"#skills"}>
                 <ContrastTextButton className="w-[100px] lg:w-[150px] bg-indigo4 dark:bg-indigodark4 text-colored" icon={RiStackLine}>
-                    Stacks
+                    Stack
                 </ContrastTextButton>
             </InternalDivisionLink>
             <InternalDivisionLink href={"#project"}>
