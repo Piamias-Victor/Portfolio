@@ -49,8 +49,8 @@ function Wrapper(props: ChildrenProps) {
       />
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content="white" />
-      <link rel="icon" type="image/svg+xml" href="/memoji.png" />
-      <link rel="alternate icon" href="/memoji.png" />
+      <link rel="icon" type="image/svg+xml" href="/<emoji.png" />
+      <link rel="alternate icon" href="/Memoji.ico" />
     </Head>
     {children}
   </>
