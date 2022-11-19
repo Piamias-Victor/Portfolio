@@ -1,6 +1,6 @@
 import { FiArrowUp, FiGithub, FiLinkedin, FiMail, FiTwitter } from 'react-icons/fi';
 import { ExternalDivisionLink, InternalDivisionLink } from "../../next/anchor";
-import { ContrastTextButton } from "../button";
+import { ContrastTextButton, OppositeTextButtonRoundedSolid } from "../button";
 
 
 
@@ -20,24 +20,24 @@ export function Footer() {
         </div>
         <div className="w-[250px] flex flex-row-reverse gap-4 px-8">
             <ExternalDivisionLink href='https://github.com/Piamias-Victor'>
-                <ContrastTextButton className='bg-indigo4 dark:bg-indigodark4'>
+                <OppositeTextButtonRoundedSolid>
                     <FiGithub className='icon-sm text-colored' />
-                </ContrastTextButton>
+                </OppositeTextButtonRoundedSolid>
             </ExternalDivisionLink>
             <ExternalDivisionLink href='https://twitter.com/Heliatr0p'>
-                <ContrastTextButton className='bg-indigo4 dark:bg-indigodark4'>
+                <OppositeTextButtonRoundedSolid>
                     <FiTwitter className='icon-sm text-colored' />
-                </ContrastTextButton>
+                </OppositeTextButtonRoundedSolid>
             </ExternalDivisionLink>
             <ExternalDivisionLink href='https://www.linkedin.com/in/victor-piamias/'>
-                <ContrastTextButton className='bg-indigo4 dark:bg-indigodark4'>
+                <OppositeTextButtonRoundedSolid>
                     <FiLinkedin className='icon-sm text-colored' />
-                </ContrastTextButton>
+                </OppositeTextButtonRoundedSolid>
             </ExternalDivisionLink>
             <ExternalDivisionLink href={"mailto:victorpiamiaspro@outlook.fr?subject=Let's get to know each other"}>
-                <ContrastTextButton className='bg-indigo4 dark:bg-indigodark4'>
+                <OppositeTextButtonRoundedSolid>
                     <FiMail className='icon-sm text-colored' />
-                </ContrastTextButton>
+                </OppositeTextButtonRoundedSolid>
             </ExternalDivisionLink>
         </div>
     </header>

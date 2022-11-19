@@ -1,4 +1,5 @@
 import { AiOutlineFundProjectionScreen } from 'react-icons/ai';
+import { FiMoon, FiSun } from 'react-icons/fi';
 import { RiContactsLine, RiStackLine } from 'react-icons/ri';
 import { useTheme } from '../../contexts/theme';
 import { InternalDivisionLink } from "../../next/anchor";
@@ -36,13 +37,14 @@ function ThemeButton() {
     const theme = useTheme()
 
     return <div className="hidden md:flex w-[250px] flex-row-reverse">
-        {theme.current === "light" ? <ContrastTextButton className="w-[100px] md:w-[125px] bg-indigo4 dark:bg-indigodark4 text-colored" icon={AiOutlineFundProjectionScreen}
-            onClick={() => theme.set("dark")}>
-            {theme.current}
-        </ContrastTextButton>
-            : <ContrastTextButton className="w-[100px] md:w-[125px] bg-indigo4 dark:bg-indigodark4 text-colored" icon={AiOutlineFundProjectionScreen}
+        {theme.current === "light"
+            ? <ContrastTextButton className="w-[100px] md:w-[125px] bg-indigo4 dark:bg-indigodark4 text-colored" icon={FiSun}
+                onClick={() => theme.set("dark")}>
+                Light
+            </ContrastTextButton>
+            : <ContrastTextButton className="w-[100px] md:w-[125px] bg-indigo4 dark:bg-indigodark4 text-colored" icon={FiMoon}
                 onClick={() => theme.set("light")}>
-                {theme.current}
+                Dark
             </ContrastTextButton>}
     </div>
 }
