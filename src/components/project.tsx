@@ -13,7 +13,7 @@ export function ProjectSection() {
 
     return <>
         <span className="text-colored text-3xl">
-            {"Project I made 👷‍♂️"}
+            {"Projects I made 👷‍♂️"}
         </span>
         <div className="h-8" />
         <div className="w-[300px] md:w-[700px] flex flex-wrap justify-center gap-8">
