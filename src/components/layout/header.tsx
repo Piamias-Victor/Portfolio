@@ -1,7 +1,7 @@
 import { AiOutlineFundProjectionScreen } from 'react-icons/ai';
 import { RiContactsLine, RiStackLine } from 'react-icons/ri';
 import { InternalDivisionLink } from "../../next/anchor";
-import { ContrastTextButton } from "../button";
+import { ContrastTextButton, OppositeTextButtonRoundedSolid } from "../button";
 
 export function Header() {
     return <header className='w-full px-8 rounded-b-xl border border-default w-full sticky top-0 z-10 flex items-center justify-between h-[60px] md:h-[80px] bg-indigo3'>
@@ -25,6 +25,12 @@ export function Header() {
                 </ContrastTextButton>
             </InternalDivisionLink>
         </div>
-        <div className="hidden md:block w-[250px]" />
+        <div className="hidden md:flex w-[250px] flex-row-reverse">
+            <InternalDivisionLink href={"https://github.com/Piamias-Victor"}>
+                <OppositeTextButtonRoundedSolid>
+                    <img className='icon-md' src='Memoji.png' alt='memoji' />
+                </OppositeTextButtonRoundedSolid>
+            </InternalDivisionLink>
+        </div>
     </header>
 }
