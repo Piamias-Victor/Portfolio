@@ -13,12 +13,12 @@ export function Footer() {
                 </ContrastTextButton>
             </InternalDivisionLink>
         </div>
-        <div className="hidden md:block flex items-center gap-8">
+        <div className="hidden md:flex items-center gap-8">
             <span className="text-colored">
                 Made in 🇫🇷 with ❤️
             </span>
         </div>
-        <div className="w-[250px] flex flex-row-reverse gap-4">
+        <div className="w-[250px] flex justify-center md:flex-row-reverse gap-4">
             <ExternalDivisionLink href='https://github.com/Piamias-Victor'>
                 <OppositeTextButtonRoundedSolid>
                     <FiGithub className='icon-sm text-colored' />
