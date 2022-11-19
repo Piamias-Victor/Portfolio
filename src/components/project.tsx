@@ -77,7 +77,7 @@ function Project(props: IconProps & ChildrenProps & { content: string, title: st
                     <span className="text-colored">{title}</span>
                 </div>
             </div>
-            <div className="flip-card-back bg-indigo4 dark:bg-indigodark4">
+            <div className="flip-card-back bg-indigo3 dark:bg-indigodark4">
                 <div className="h-[200px] px-2 flex-col flex items-center justify-center gap-4">
                     <span className="text-colored text-sm">{content}</span>
                     {children}

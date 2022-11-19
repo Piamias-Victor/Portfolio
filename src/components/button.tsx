@@ -18,7 +18,7 @@ export function OppositeTextButtonRoundedSolid(props: ButtonProps & RefProps<HTM
 
     const { xref, className, children, ...other } = props
 
-    return <button className={`group flex items-center justify-center rounded-xl p-2 bg-indigo6 hover:bg-indigo7 dark:bg-indigodark6 dark:hover:bg-indigodark7 text-colored transition-colors disabled:opacity-50 disabled:cursor-not-allowed ${className}`}
+    return <button className={`group flex items-center justify-center rounded-xl p-2 bg-indigo4 hover:bg-hover dark:bg-indigodark6 dark:hover:bg-indigodark7 text-colored transition-colors disabled:opacity-50 disabled:cursor-not-allowed ${className}`}
         {...other}
         ref={xref}>
         <div className="flex  justify-center items-center gap-2 group-enabled:group-active:scale-90 transition-transform">

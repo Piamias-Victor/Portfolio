@@ -44,7 +44,7 @@ function Skill(props: IconProps & { content: string }) {
                         <Icon className="w-[50px] h-[50px] shrink-0 text-colored" />}
                 </div>
             </div>
-            <div className="flip-card-back bg-indigo4 dark:bg-indigodark4">
+            <div className="flip-card-back bg-indigo3 dark:bg-indigodark4">
                 <div className="h-[100px] px-2 flex items-center justify-center">
                     <span className="text-colored">{content}</span>
                 </div>
