@@ -27,4 +27,6 @@ body {
 
 body {
   @apply bg-default text-default transition-colors duration-500;
+  @apply selection:bg-indigo7 dark:selection:bg-indigodark7;
+  @apply selection:text-slate2 dark:selection:text-slate4;
 }
